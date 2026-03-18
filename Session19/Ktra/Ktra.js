@@ -27,6 +27,6 @@ button_task.addEventListener("click",()=>{
         profile.push(profileNew);
         localStorage.setItem("listProfile",JSON.stringify(profile));
 
-       lert("đăng kí thành công");
+       alert("đăng kí thành công");
 }); 
 a
