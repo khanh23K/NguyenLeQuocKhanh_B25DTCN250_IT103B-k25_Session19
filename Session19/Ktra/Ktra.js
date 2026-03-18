@@ -17,6 +17,8 @@ button_task.addEventListener("click",()=>{
         alert("Mật khẩu quá ít");
     } else if(password.value.length != checkPassword.value.length) {
         alert("Mật khẩu ko trùng khớp");
+    } else {
+      alert("đăng kí thành công");  
     }
     
     let profileNew = {
@@ -27,6 +29,5 @@ button_task.addEventListener("click",()=>{
         profile.push(profileNew);
         localStorage.setItem("listProfile",JSON.stringify(profile));
 
-       alert("đăng kí thành công");
+       
 }); 
-a
